@@ -1,0 +1,167 @@
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
+
+}
+td{
+  margin: 0;
+  padding: 0;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.box {
+  margin-top: 0px;
+  border: 1px black solid;
+  min-width: 300px;
+  width: fit-content;
+  min-height: 1000px;
+  height: fit-content;
+  float: left;
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.text-context{
+  background-color: #afafaf;
+}
+
+#hdr{
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 100px;
+  text-align: left;
+  margin-right: 20px;
+}
+.text-context h4{
+  text-decoration: underline;
+}
+.aspect{
+  background-color: #d1d1d1;
+  margin-right: 10px;
+}
+.aspect h4{
+  text-decoration: underline;
+}
+.aspect label {
+  display: block;
+  width: 170px;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.cv-ppr{
+background-color: #dd2e2e;
+padding: 0;
+padding-left: 20px;
+overflow: hidden;
+width: 750px;
+  margin-left: 8px;
+height: 1000px;
+border: 1px black solid;
+
+}
+.cv-ppr p ,li{
+  font-size: smaller;
+  
+  }
+    
+  .cv-ppr h4{
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid black;
+
+  }
+  
+
+.left-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aqua;
+  height: 700px;
+    float: left;
+    display: block;
+    width: 260px;
+    height: 1000px;
+    background-color: #ad1a1a;
+    padding: 5px;
+    padding-bottom:0 ;
+    padding-top: 0;
+    overflow: hidden;
+}
+.left-col .prt{
+height: 250px;
+margin-top: 10px;
+}
+
+.namebox{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    background-color: #383838;
+    color:white;
+}
+.namebox h1 ,h2 {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+#img-box {
+    border: 2px solid black;
+    border-radius: 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+ 
+  }
+  
+  .right-col{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    padding: 5px;
+    padding-right: 30px;
+  }
+  .right-col hr{
+    width: 400px;
+    float: left;
+    margin-top: 0;
+  }
+.aboutmeprt{
+  margin-top: 10px;
+  height: 700px;
+ 
+}
+.exprprt{
+
+  height: 600px;
+}

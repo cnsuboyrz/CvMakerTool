@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cv Maker Tool</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <table>
+            <tr>
+                <th colspan="3">CV Hazırlama Aracı</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-context box">
+
+                        <h3 id="hdr">Metin İçerikleri</h3>
+                        <hr>
+                        <h4>İsim Kutusu</h4>
+                        <div class="section">
+                            <label for="name-surname">Ad Soyad :</label>
+                            <input type="text" name="name-surname"
+                                id="name-surname">
+                        </div>
+
+                        <div class="section">
+                            <label for="title">Ünvan :</label>
+                            <input type="text" name="title" id="title">
+                        </div>
+
+                        <h4>İletişim Bilgileri</h4>
+                        <div class="section">
+                            <label for="phonenmbr">Telefon :</label>
+                            <input type="text" name="phonenmbr" id="phonenmbr">
+                        </div>
+
+                        <div class="section">
+                            <label for="mail">Mail :</label>
+                            <input type="text" name="mail" id="mail">
+                        </div>
+
+                        <div class="section">
+                            <label for="web">Web :</label>
+                            <input type="text" name="web" id="web">
+                        </div>
+
+                        <div class="section">
+                            <label for="adress">Adres :</label>
+                            <textarea type name="adress" id="adress"></textarea>
+                        </div>
+
+                        <h4>Eğitim Bilgileri</h4>
+
+                        <div class="section">
+                            <label for="ed-exp">Açıklama :</label>
+                            <textarea type name="ed-exp" id="ed-exp"></textarea>
+                        </div>
+
+                        <div class="section">
+                            <label for="schoolnmbr">Okul Sayısı :</label>
+                            <select name="schoolnmbr" id="schoolnmbr">
+                                <option selected value="select">Seçiminiz</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+
+                        <div class="schools">
+
+                        </div>
+                        <h4>Yetenekler</h4>
+
+                        <div class="section">
+                            <label for="skills-exp">Yetenekler :</label>
+                            <textarea type name="skills-exp" id="skills-exp"></textarea>
+                        </div>
+
+                        <div class="section">
+                            <label for="skillnmbr">Yetenek Sayısı:</label>
+                            <select name="skillnmbr" id="skillnmbr">
+                                <option selected value="select">Seçiminiz</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+
+                            </select>
+                        </div>
+
+                        <div class="skills">
+
+                        </div>
+
+                        <h4>Hakkımda</h4>
+                        <div class="section">
+                            <label for="abt-exp">Açıklama :</label>
+                            <textarea type name="abt-exp" id="abt-exp"></textarea>
+                        </div>
+
+                        <h4>İş Deneyimi</h4>
+                        <div class="section">
+                            <label for="job-exp">Açıklama :</label>
+                            <textarea type name="job-exp" id="job-exp"></textarea>
+                        </div>
+                    </div>
+                    <td>
+                        <div class="aspect box">
+                            <h3 id="hdr">Görünüş</h3>
+                            <hr>
+                            <h4>Renkler</h4>
+                            <div class="section">
+                                <label for="backgroundclr">Arkaplan Rengi :</label>
+                                <input type="color" name="backgroundclr"
+                                    id="backgroundclr"
+                                    value="#dd2e2e">
+                            </div>
+
+                            <div class="section">
+                                <label for="leftcolclr">Sol Kolon Rengi :</label>
+                                <input type="color" name="leftcolclr"
+                                    id="leftcolclr"
+                                    value="#ad1a1a">
+                            </div>
+
+                            <div class="section">
+                                <label for="nameclr">İsim Kutusu Rengi :</label>
+                                <input type="color" name="nameclr" id="nameclr"
+                                    value="#383838">
+                            </div>
+
+                            <div class="section">
+                                <label for="nametxtclr">İsim Kutusu Yazı Rengi :</label>
+                                <input type="color" name="nametxtclr"
+                                    id="nametxtclr"
+                                    value="#ffffff">
+                            </div>
+
+                            <h4>Yazı Tipi</h4>
+
+                            <div class="section">
+                                <label for="font">Yazı Tipi:</label>
+                                <select name="font" id="font">
+                                    <option selected value="select">Seçiminiz</option>
+                                    <option value="Times New Roman">Times New
+                                        Roman</option>
+                                    <option value="Courier New">Courier New</option>
+                                    <option value="Lucida Handwriting">Lucida
+                                        Handwriting</option>
+
+                                </select>
+                            </div>
+
+                            <h4>Fotoğraf</h4>
+                            <div class="section">
+                                <label for="photoframe">Fotoğraf Çerçevesi Şekli
+                                    :</label>
+                                <select name="photoframe" id="photoframe">
+                                    <option selected value="select">Seçiminiz</option>
+                                    <option value="0">Köşeli</option>
+                                    <option value="20%">Oval</option>
+                                    <option value="100%">Yuvarlak</option>
+
+                                </select>
+                            </div>
+
+                            <h4>Başlık Altı Çizgileri</h4>
+                            <div class="section">
+                                <label for="lineclr">Çizgi Rengi :</label>
+                                <input type="color" name="lineclr" id="lineclr">
+                            </div>
+
+                            <div class="section">
+                                <label for="lineshape">Çizgi Şekli :</label>
+                                <select name="lineshape" id="lineshape">
+                                    <option selected value="select">Seçiminiz</option>
+                                    <option value="dotted">Noktalı</option>
+                                    <option value="dashed">Çizgili</option>
+                                    <option value="solid">Düz</option>
+
+                                </select>
+                            </div>
+
+                        </div>
+                    </td>
+                </td>
+                <td>
+                    <div class="cv-ppr ">
+
+                        <div class="left-col">
+                            <div class="img">
+                                <div id="img-box">
+                                    Fotoğraf
+                                </div>
+                            </div>
+                            <div class="cntcs prt">
+                                <h4>İLETİŞİM</h4>
+
+                                <ul>
+                                    <li id="cvphonenmbr"> {Telefon}</li>
+                                    <li id="cvmail"> {Mail}</li>
+                                    <li id="cvadress"> {Adres}</li>
+                                    <li id="cvweb"> {Web}</li>
+                                </ul>
+                            </div>
+
+                            <div class="ed prt">
+                                <h4>EĞİTİM</h4>
+                                <div class="line"></div>
+                                <p id="cved-exp">{AÇIKLAMA}</p>
+                                <ul id="cvschoollist"></ul>
+                            </div>
+
+                            <div class="sklls prt">
+                                <h4>YETENEKLER</h4>
+                                <div class="line"></div>
+                                <p id="cvskills-exp">{AÇIKLAMA}</p>
+                                <ul id="cvskilllist"></ul>
+                            </div>
+
+                        </div>
+                        <div class="namebox">
+                            <h1 id="cvname-surname">{AD SOYAD}</h1>
+                            <hr style="width: 50px;">
+                            <h2 id="cvtitle">{UNVAN}</h2>
+                        </div>
+                        <div class="right-col">
+
+                            <div class="aboutmeprt">
+                                <h4>HAKKIMDA</h4>
+                                <div class="line"></div>
+                                <p id="cvabt-exp">{AÇIKLAMA}</p>
+                            </div>
+
+                            <div class="exprprt">
+                                <h4>İŞ DENEYİMİ</h4>
+
+                                <p id="cvjob-exp">{AÇIKLAMA}</p>
+                            </div>
+                        </div>
+
+                    </div></td>
+            </tr>
+        </table>
+
+        <script src="index.js"></script>
+    </body>
+</html>
